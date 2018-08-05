@@ -4,6 +4,7 @@
     
     img {
         width: 100%;
+        height: 640px;
     }
 
     .cover-box {
@@ -13,11 +14,10 @@
         height: auto;
         top: 15%;
         text-align: center;
-        left: 16%;
+        left: 14%;
         padding: 20px 10px 0px 10px;
         
-        .cover-box__txt {
-            font-family: helvetica, sans-serif;     
+        .cover-box__txt {  
             color: white;
             line-height: 12px;
             
@@ -44,7 +44,7 @@
 
         .cover-box {
             top: 10%;
-            left: 17%;
+            left: 11%;
             border: 7px solid white;
             padding: 35px 35px 10px 35px;
             
@@ -52,7 +52,7 @@
                 line-height: 60px;
                 
                 .data {
-                    font-size: 67px;
+                    font-size: 74px;
                 }
     
                 .ai {
@@ -74,7 +74,7 @@
 
         .cover-box {
             top: 20%;
-            left: 24%;
+            left: 26%;
             
             .cover-box__txt {
                 line-height: 60px;

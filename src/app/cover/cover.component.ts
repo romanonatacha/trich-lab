@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cover.component.scss']
 })
 export class CoverComponent implements OnInit {
-  image = 'https://picsum.photos/1024/500?image=903';
+  image = './assets/images/machine-learning.png';
 
   constructor() { }
 
