@@ -7,35 +7,90 @@
     }
 
     .cover-box {
-        border: 7px solid white; 
+        border: 2px solid white; 
         position: absolute;
-        width: 50%;
+        width: auto;
         height: auto;
-        top: 20%;
+        top: 15%;
         text-align: center;
-        left: 24%;
-        padding: 35px 35px 10px 35px;
+        left: 16%;
+        padding: 20px 10px 0px 10px;
         
         .cover-box__txt {
             font-family: helvetica, sans-serif;     
             color: white;
-            line-height: 60px;
+            line-height: 12px;
             
             .data {
-                font-size: 67px;
+                font-size: 27px;
                 font-weight: bold;
                 text-transform: uppercase;
             }
 
             .ai {
-                font-size: 57px;
+                font-size: 23px;
             }
 
             .ml {
-                font-size: 38px;
+                font-size: 15px;
             }
         }
     }
+}
+
+@media (min-width: 768px) {
+
+    .cover {
+
+        .cover-box {
+            top: 10%;
+            left: 17%;
+            border: 7px solid white;
+            padding: 35px 35px 10px 35px;
+            
+            .cover-box__txt {
+                line-height: 60px;
+                
+                .data {
+                    font-size: 67px;
+                }
+    
+                .ai {
+                    font-size: 57px;
+                }
+    
+                .ml {
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+}
 
 
+@media (min-width: 998px) {
+
+    .cover {
+
+        .cover-box {
+            top: 20%;
+            left: 24%;
+            
+            .cover-box__txt {
+                line-height: 60px;
+                
+                // .data {
+                //     font-size: 67px;
+                // }
+    
+                // .ai {
+                //     font-size: 57px;
+                // }
+    
+                // .ml {
+                //     font-size: 38px;
+                // }
+            }
+        }
+    }
 }
