@@ -1,0 +1,41 @@
+.cover {
+    background-size: cover;
+    position: relative;
+    
+    img {
+        width: 100%;
+    }
+
+    .cover-box {
+        border: 7px solid white; 
+        position: absolute;
+        width: 50%;
+        height: auto;
+        top: 20%;
+        text-align: center;
+        left: 24%;
+        padding: 35px 35px 10px 35px;
+        
+        .cover-box__txt {
+            font-family: helvetica, sans-serif;     
+            color: white;
+            line-height: 60px;
+            
+            .data {
+                font-size: 67px;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            .ai {
+                font-size: 57px;
+            }
+
+            .ml {
+                font-size: 38px;
+            }
+        }
+    }
+
+
+}

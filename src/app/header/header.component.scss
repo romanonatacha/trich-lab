@@ -1,0 +1,12 @@
+.social-icons {
+    a {
+        color: white;
+        font-size: 18px;
+        padding: 10px;
+
+        &:hover {
+            color: rgb(255, 147, 75);
+            // color: rgb(97, 179, 255);
+        }
+    }
+}
