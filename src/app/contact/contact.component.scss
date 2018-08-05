@@ -1,15 +1,17 @@
 @import '../../variables';
 
-.portfolio {
+.contact {
     height: auto;
     padding: 50px;
-    background-color: $orange;
+    background-image: url('/assets/images/brain-neural.png');
 
-    h2 {
-        color: white;
-        text-transform: uppercase;
-        font-weight: 700;
-    }
+
+        h2 {
+            color: white;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
 
     .card-deck {
         margin-top: 30px;
@@ -18,7 +20,7 @@
 
 @media (min-width: 998px) {
 
-    .portfolio {
+    .contact {
     
         h2 {
             font-size: 40px;
