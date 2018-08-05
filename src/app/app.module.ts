@@ -7,6 +7,7 @@ import { BsDropdownModule, CollapseModule } from 'ngx-bootstrap';
 import { CoverComponent } from './cover/cover.component';
 import { AboutComponent } from './about/about.component';
 import { CollapseComponent } from './collapse/collapse.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CollapseComponent } from './collapse/collapse.component';
     HeaderComponent,
     CoverComponent,
     AboutComponent,
-    CollapseComponent
+    CollapseComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
