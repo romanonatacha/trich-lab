@@ -1,0 +1,27 @@
+@import '../../variables';
+
+.portfolio {
+    height: auto;
+    padding: 50px;
+    background-color: $gray;
+
+    h2 {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .card-deck {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 998px) {
+
+    .portfolio {
+    
+        h2 {
+            font-size: 40px;
+        }
+    }
+}

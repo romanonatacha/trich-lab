@@ -1,0 +1,14 @@
+@import '../../variables';
+
+.footer {
+    background-color: $orange;
+    height: 50px;
+    position: relative;
+
+    span {
+        padding: 12px;
+        color: rgba(255, 255, 255, 0.808);
+        position: absolute;
+        right: 20px;
+    }
+}

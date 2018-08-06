@@ -1,0 +1,46 @@
+@import '../../variables';
+
+.contact {
+    height: auto;
+    padding: 50px;
+    background-image: url('/assets/images/neural-net.png');
+
+
+        h2 {
+            color: white;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .contact__txt {
+            margin-top: 30px;
+            color: white;
+            text-align: justify;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.452);
+
+            p {
+                font-size: 14px;
+                margin-top: 10px;
+
+            }
+        }
+}
+
+@media (min-width: 998px) {
+
+    .contact {
+    
+        h2 {
+            font-size: 40px;
+        }
+
+        .contact__txt {
+            margin-left: 30px;
+
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
