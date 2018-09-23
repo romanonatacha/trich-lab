@@ -3,11 +3,11 @@
 .contact {
     height: auto;
     padding: 50px;
-    background-image: url('/assets/images/neural-net.png');
+    // background-image: url('/assets/images/neural-net.png');
 
 
         h2 {
-            color: white;
+            color: $gray;
             text-transform: uppercase;
             font-weight: 700;
         }
