@@ -1,11 +1,16 @@
 .cover {
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
     background-image: url('/assets/images/neural-network.jpg');
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     height: auto;
+
+    &__img {
+        width: 120%;
+    }
 
     video {
         width: 100%;
