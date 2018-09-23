@@ -4,9 +4,21 @@
     display: none;
 }
 
+.menu {
+
+    &__logo {
+        margin-top: 20px;
+
+        &__img {
+            padding: 10px 40px;
+            width: 400px;
+        }
+    }
+}
+
 .social-icons {
     a {
-        color: white;
+        color: #343939;
         font-size: 18px;
         padding: 10px;
 

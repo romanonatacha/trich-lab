@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   isCollapsed = false;
+  logo = '../../assets/images/trichlab.svg'
 
   constructor() { }
 
